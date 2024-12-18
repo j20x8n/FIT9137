@@ -1,1 +1,46 @@
-# FIT9137
+java c
+FIT9137 
+ASSIGNMENT 1 - Computer Architecture and OS functionalities
+Purpose 
+Assignment will include the material covered in Weeks 1-3. In particular, the assignment will consist of questions related to computer architecture and operating systems. The format of the student submission will be a recorded video showing skills on how to use the UNIX-based terminals and execute commands within an Operating System (OS). This is an individual assignment. Completing this Assignment will contribute to the Learning Outcomes 1  2.
+Students are expected to start working on Assignment 1 from the end of Week 3.
+INSTRUCTIONS (for all tasks) In   this   assignment, you   must   record   yourself   and   your   screen   while   performing   a   number   of   tasks detailed   further below.   For   each   task,   the   allocated   marks   are   indicated   in   front   of it.   Your   entire   presentation cannot be less than 5:00 minutes or more than   11:00 minutes. At the beginning of   your   presentation, you must have   a   slide   as   shown   in   Appendix A   to   show   your   face   and   student   ID   in   the   recording.   Your   camera   view   must   remain   on   at   a   corner   of the   video   throughout   the   whole   duration   of   the   recording.   If   you   think   a   task   cannot   be   performed,   you   have   to   explain   WHY   you cannot   do   it.   You   are not allowed   to   record   a   video   only   and   add   a   voice   over   later   on;   your   explanations must be provided while you are performing the tasks and presenting your solution.
+The submission video file should be named as follows: firstname_studentID.filetype Note 0: If you   feel   uncomfortable   recording   yourself,   you   must   present   this   assessment   in   a   live   session   to Muhammed/Malik/Safi.   You   must   have a concrete and   valid   reason for   this   to   be accepted.   If you   want   to   arrange   for   a   live   presentation   (rather   than   recording   yourself),   you   have   to   send   Muhammed/Malik/Safi   an   arrangement   email by   the   Friday   of Week   5   (by   close   of   business)   and   we   will   arrange   the   live   presentations   for   students   sometime   on   Monday   of Week   6 just   after   the   deadline. This is to achieve fairness   for   all   students.Note 1: If   you do not have your student ID (digital or   physical one) yet   (to   show at the beginning   of   the   recording),   you   can   use   your   confirmation   of   enrolment   (CoE)   from   Monash   University   or   Passport copy instead.
+Note 2: You may use any software to record yourself. Werecommend Monash Zoom, which is free   for all Monash students. You can refer to the following   links   on how   to   install/use   Zoom.
+● Zoom 
+● More details on Zoom 
+Note 3: You are allowed to pre-install new software if   needed and do not need to display installation   in the video.Note 4: You   can   do   (online)   research   in   advance,   take   notes   and   make   use   of them   during   video   recording. However, you   are not allowed to   simply   copy   commands   from   a   file   and paste them   to   the terminal. Similarly, simply using commands from the terminal history is not allowed. You must   perform   alive-recording   of   the   tasks   and   provide   a   proper   (brief) explanation   while   carrying   out   the tasks.
+Note 5: If   you require extension or special consideration, please refer to this   link:   -
+https://www.monash.edu/students/admin/assessments/extensions-special-consideration 
+No teaching team member is allowed to give you extension or special consideration, so please do not reach out to a teaching team member about this. Follow the guidelines in the aforementioned link. 
+Note 6: If   your   device does not have   a camera   (or   for whatever   reason   you   can't   use   your   device),   you can borrow a device from Monash Connect or Library. It's your responsibility to plan ahead   for   this. Monash   Connect   or Library not having   available devices   for   loan   at   a   particular   point   in   time   is not a valid   excuse.
+Note 7: You   can   create   multiple   video   parts   at   different   times   then   combine   and   submit   a   single   video at the end. Make sure that the final video   is   clear   and understandable.
+Note 8: Zero tolerance on plagiarism and academic integrity violations: If   you are found cheating,   penalties   will   apply,   e.g.,   a   zero   grade   for   the   unit. The  代 写FIT9137 ASSIGNMENT 1 - Computer Architecture and OS functionalitiesC/C++
+代做程序编程语言 demonstration   video   is also   used   to   detect/avoid plagiarism.
+University   policies   are   found   at:https://www.monash.edu/students/academic/policies/academic-integrity 
+Note 9: At the   end of   your presentation,   you   can   add   a   slide(s)   to   acknowledge   the   references   you   made use   of. You   do not need   to   spend   time   reading   through   the   references, just making   sure   that they are captured in the recording   is   fine.Task 1: Operating System processes management using Command Line: All   Task   1   related   execution   is   about   using   a Unix-based   terminal.   Students   have   to   demonstrate   the   sub-tasks using   the   command   line   terminal.   The   terminal   can   be   the   one   from   your   VM   or   your   own   Unix-based   computer.
+● Task 1.1: Identify the Linux command used to control the status of any Linux services to start/stop/enable or disable. Using this command show how you would check the status of the installed default Web services in your given VM machine Ubuntu? (1 mark) 
+● Task 1.2: Display the Linux command to list all the operating system parameters? List the directory where these parameters arestored in Linux? (1 mark) 
+● Task 1.3: List the command to display all the available signals to terminate a process? List and explain which is the default signal it sends for process termination. (1 mark) 
+● Task 1.4: Show the command to list all threads specific to a Core emulator daemon process in Linux VM? Hint:first run the core emulator software, and then examine the details of the core daemon. (1 mark) 
+● Task 1.5: Using process management command, show how you would order the processes that are using the most CPU or disk read/write? Clearly show which processes on your system have the (a) highest CPU usage, and (b) highest disk usage at the time of recording your video. One (not necessarily different) process for each of (a), and (b) is required. (1 + 1 marks) 
+● Task 1.6: Using Linux command list the processes with different process running priorities? Now list the Linux command to change the priority of a currently running process called systemd to its highest priority value? (1 mark) 
+● Task 1.7: Identify the Linux command used to modify existing Linux users. The command can be    used to modify attributes of the user such as usernames, userId, GroupID, permissions, etc.    When we execute this command on an existing Linux user, identify the system files it will make some changes and where these files arestored? (1 mark) 
+● Task    1.8: When a user muni is logged in to a Linux system; List and explain the Linux command that shows all open files and active processes initiated by the user muni? (1 mark) 
+● Task 1.9: Show how to use Linux commands to create two users alex and bill with the default home directories and other environment settings and that both belong to the same group called CSIRO. Now allow them to share a project.txt file in bill’s home folder with rwx permission. Restrict read, write and execute access to only the CSIRO group members only. 
+(2 + 1 + 1 mark) Task 2: Investigating Processes using a Graphical User Interface (GUI) software: Task   2   is   about using a free software/tool GUI (that   student has to   either   install   on   their   own   VM/Host   OS   or   have it already on their OS) and performing the task-2 activities using   the mentioned   software.
+● Task 2.1: Find a GUI software that can be used to manage tasks suitable for your device   and   OS   (e.g., task manager for Windows). You may   choose   this   software   according   to   your   OS   being Windows, Mac, Linux, etc.   Show how this software works. (1 mark) 
+● Task 2.2: Take   one   of the   running   processes   as   an   example   and   clearly   explain   at   least   4   output   fields   relevant   to   that   process   in   this   software,   for   example   PID,   CPU   percentage,   Page Faults, Threads, I/O reads or I/O Writes. (0.5 + 0.5 + 0.5 + 0.5 marks) 
+● Task 2.3: Show how you would find   a process related to   a   specific   application   like   Firefox,   Core network emulator, Wireshark etc in this software. (1 mark) 
+● Task 2.4: Show how you would “kill” a random process   with   the   software. (1 mark) 
+Total 20 Marks: 
+● Task 1 has total of 13 marks,
+● Task 2 has total of 5 marks,
+● Presentation marks: 2 marks will be given for clarity   of   your   communication /   explanation in your recorded presentation.
+
+
+
+
+
+         
+加QQ：99515681  WX：codinghelp  Email: 99515681@qq.com
